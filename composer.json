@@ -1,0 +1,27 @@
+{
+    "name": "estvoyage/roman",
+    "description": "",
+    "type": "project",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Frédéric Hardy",
+            "email": "frederic.hardy@mageekbox.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "atoum/atoum": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "estvoyage\\roman\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "estvoyage\\roman\\tests\\units\\providers\\": "tests/units/providers",
+            "estvoyage\\roman\\tests\\units\\": "tests/units/src"
+        }
+    }
+}
